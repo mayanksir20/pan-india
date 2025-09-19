@@ -179,6 +179,7 @@
     min-height: 450px;
   }
 
+
   #header-carousel .carousel-item img {
     position: absolute;
     width: 100%;
@@ -620,7 +621,7 @@
 
 @media (max-width: 1024px) {
   .display-1 {
-    font-size: 3rem !important;
+    font-size: 3rem;
   }
 
   .carousel-caption {
@@ -636,5 +637,8 @@
 @media (max-width: 600px) {
   .team-item img {
     height: 250px;
+  }
+    .display-1 {
+    font-size: 2rem !important;
   }
 }
